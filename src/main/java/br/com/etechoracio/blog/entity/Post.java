@@ -13,6 +13,7 @@ public class Post {
     @Id
     @Column(name = "ID_POST")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
 
     @Column(name = "TX_TITULO")
